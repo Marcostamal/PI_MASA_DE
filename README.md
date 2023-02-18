@@ -45,3 +45,19 @@ Puedes revisar la fuente de datos Aqui:
 <img src="https://cdn-icons-png.flaticon.com/512/2875/2875333.png"  height=300>
 </p>
 En la carpeta Data_util estan los archivos csv limpios y las uniones
+
+## Cuarta Parte API 
+He creado una API para que puedas consultar alguna info de los datos que he trabajado como por ejemplo la cantidad de peliculas que hay en una plataforma
+
+Usa [Mi app en Deta Space](https://deta.space/discovery/r/lvlxbrwtm85idcym) para entrar en mi app y ver como funciona, una ves que la estes utilizando te aconsejo escribas /docs para que mires la documentacion y sepas que puedes introducir y como introducirlo.
+
+Una de las funciones llamada get_max_duration para probarla tendras que remplazar los valores de string y para el anio el 0 esto solo si quieres filtrar por algun campo, pero si no quieres mover esto puedes no tocarlo y te devolvera una respuesta buscando en todos los datos
+
+ejemplo:
+~~~
+{
+  "platform": "amazon",
+  "year": 2014,
+  "duration_type": "min"
+}
+~~~
