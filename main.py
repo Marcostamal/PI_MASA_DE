@@ -21,7 +21,7 @@ async def index():
     texto = "Esta API fue hecha por Marcos Alejandro Segundo Almanza"
     return texto
 
-@app.get("/platform/{platform}")
+@app.get("/get_count_platform/{platform}")
 async def get_count_platform(platform: str):
     """
     Definicion
@@ -44,7 +44,7 @@ async def get_count_platform(platform: str):
     get_count_platform("amazon")
     >>> {"Cantidad": 9668}
     """
-    db = pd.read_csv("https://raw.githubusercontent.com/Marcostamal/nana/main/Plataformas_score.csv") # Cargo la data
+    db = pd.read_csv("https://raw.githubusercontent.com/Marcostamal/PI_MASA_DE/main/Plataformas_score.csv") # Cargo la data
 
     nom_plat = {"amazon":"a",         # Creo un diccionario para definir las entradas de mis variables
                 "disney":"d",
@@ -89,7 +89,7 @@ async def get_actor(platform: str, year: int):
     get_actor("amazon", 2015):
     >>> {"actor": "mother gose club", "apariciones": 3}
     """
-    db = pd.read_csv("https://raw.githubusercontent.com/Marcostamal/nana/main/Plataformas_score.csv")  # Cargo la data
+    db = pd.read_csv("https://raw.githubusercontent.com/Marcostamal/PI_MASA_DE/main/Plataformas_score.csv")  # Cargo la data
 
     # Mascaras para los filtros por anio y por plataforma
     filtro = db["release_year"] == year
@@ -154,7 +154,7 @@ async def get_score_count(platform:str, scored:float, year:int):
     >>> {"cantidad": 378}
 
     """
-    db = pd.read_csv("https://raw.githubusercontent.com/Marcostamal/nana/main/Plataformas_score.csv")
+    db = pd.read_csv("https://raw.githubusercontent.com/Marcostamal/PI_MASA_DE/main/Plataformas_score.csv")
     year = db["release_year"] == year
     platform = db["plataforma"] == platform[0]
     score = db["score"] > scored
@@ -193,7 +193,7 @@ def get_max_duration(duration_max: duration_max):
     get_max_duration("amazon",2015,"min")
     >>> "carmen beanch waves for sleep"
     """
-    db = pd.read_csv("https://raw.githubusercontent.com/Marcostamal/nana/main/Plataformas_score.csv")
+    db = pd.read_csv("https://raw.githubusercontent.com/Marcostamal/PI_MASA_DE/main/Plataformas_score.csv")
     x = 0
     y = 0
     z = 0
