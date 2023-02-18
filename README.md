@@ -30,3 +30,18 @@ En la segunda parte del proceso de ETL se hicieron transformaciones a la data de
  
 Puedes ver los cambios aqui: 
 [ETL a Datos de los usuarios](https://github.com/Marcostamal/PI_MASA_DE/blob/main/Data_Cleaning_UserScore.ipynb)
+
+## Tercera Parte
+En la tercera parte del ETL hice 2 uniones:
+ 1. Union de los promedios de score y los datos limpios de las plataformas (Para API)
+ 2. Union de todos los datos de usuarios con plataformas (Para Modelo de Machine Learning)
+ 
+Puedes ver lo realizado aqui:
+[ETL union de data](https://github.com/Marcostamal/PI_MASA_DE/blob/main/Union_Data.ipynb)
+ 
+Puedes revisar la fuente de datos Aqui: 
+[Drive de datos](https://drive.google.com/drive/folders/1225oX7a5IgmPLOSO90WAVNcvo8zn1g1h?usp=share_link)
+<p align="center">
+<img src="https://cdn-icons-png.flaticon.com/512/2875/2875333.png"  height=300>
+</p>
+En la carpeta Data_util estan los archivos csv limpios y las uniones
