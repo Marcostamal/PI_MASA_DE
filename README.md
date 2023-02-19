@@ -61,3 +61,5 @@ ejemplo:
   "duration_type": "min"
 }
 ~~~
+
+Puedes revisar el codigo de la aplicacion aqui: [Codigo App](https://github.com/Marcostamal/PI_MASA_DE/blob/main/main.py)
