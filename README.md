@@ -74,3 +74,4 @@ Puedes ver el analisis aqui: [Analisis Exploratorio de Datos](https://github.com
  
 ## Sexta Parte Modelo de Machine Learning
 Como ya lo he adelantado la tecnica para el sistema de recomendacion de peliculas que utilice es el filtrado colaborativo, los datos utilizados para este modelo puedes revisarlo en el drive, en la carpeta datos_para_ML: [Datasets](https://drive.google.com/drive/folders/1225oX7a5IgmPLOSO90WAVNcvo8zn1g1h?usp=share_link) estos datos son el resultado del analisis exploratorio.
+Puedes revisar el codigo aqui: [codigo ML](https://github.com/Marcostamal/PI_MASA_DE/blob/main/Modelo%20ML.ipynb)
