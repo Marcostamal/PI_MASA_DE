@@ -63,3 +63,14 @@ ejemplo:
 ~~~
 
 Puedes revisar el codigo de la aplicacion aqui: [Codigo App](https://github.com/Marcostamal/PI_MASA_DE/blob/main/main.py)
+ 
+## Quinta Parte EDA
+<p align="center">
+<img src="https://img.freepik.com/vector-gratis/ilustracion-concepto-analisis_114360-1119.jpg?size=338&ext=jpg"  height=300>
+</p>
+Para mi sistema de recomendacion que veremos posteriormente he usado la tecnica de filtrado colaborativo por lo que he descartado mucha data para solo enfocarme en los usuarios, peliculas, y las calificaciones asi que el siguiente analisis es solo sobre esos datos ya que esta tecnica solo utiliza a los usuarios y su manera de calificar a las peliculas para predecir lo que un usuario similar veria.
+
+Puedes ver el analisis aqui: [Analisis Exploratorio de Datos](https://github.com/Marcostamal/PI_MASA_DE/blob/main/EDA.ipynb)
+ 
+## Sexta Parte Modelo de Machine Learning
+Como ya lo he adelantado la tecnica para el sistema de recomendacion de peliculas que utilice es el filtrado colaborativo, los datos utilizados para este modelo puedes revisarlo en el drive, en la carpeta datos_para_ML: [Datasets](https://drive.google.com/drive/folders/1225oX7a5IgmPLOSO90WAVNcvo8zn1g1h?usp=share_link) estos datos son el resultado del analisis exploratorio.
