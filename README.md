@@ -11,7 +11,7 @@ En la primera parte del proyecto (ETL) conte con 4 archivos csv que contenia el 
 cada archivo correspondia a una plataforma de steaming (Amazon, Netflix, Disney, Hulu)
 ### Transformaciones que se hicieron
 + Se genero un campo **`id`**: Cada id es la union del campo show_id con la primera inicial de la plataforma (ejemplo para títulos de Amazon = **`as123`**)
-+ Se genero un campo llamado plataforma el cual contiene la inicial de cada plataforma ("a", "n", "d", "h")
++ Se genero un campo llamado plataforma el cual contiene la inicial de cada plataforma ("a" para amazon, "n" para netflix, "d" para disney, "h" para hulu)
 + Los valores nulos del campo rating se remplazaron por el string “**`G`**” (corresponde al maturity rating: “general for all audiences”)
 + Las fechas, se cambiaron al formato **`AAAA-mm-dd`**
 + Los campos de texto se pasaron a minusculas **minúsculas**, sin excepciones
